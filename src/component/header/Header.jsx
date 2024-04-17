@@ -80,7 +80,7 @@ const Header = () => {
           </p>
         </div>
         <div className="box-header-item">
-          <p className="title-item">Users</p>
+          <p className="title-item">Balance</p>
           <p className="count-item">{data && formatPrice(data.balance)} VND</p>
           <p className="icon-balance">
             <svg height="28" width="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M19 8V6C19 4.89543 18.1046 4 17 4H6C4.89543 4 4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20H17C18.1046 20 19 19.1046 19 18V16" stroke="#73099a" stroke-width="1.584" stroke-linecap="round" stroke-linejoin="round"></path> <rect x="13" y="8" width="8" height="8" rx="1" stroke="#73099a" stroke-width="1.584" stroke-linecap="round" stroke-linejoin="round"></rect> <circle cx="17" cy="12" r="1.5" fill="#73099a"></circle> </g></svg>
