@@ -20,7 +20,7 @@ const Header = () => {
       redirect: "follow"
     };
 
-    fetch("http://localhost:5000/admin/infoboard", requestOptions)
+    fetch("https://ass3-store-server.onrender.com/admin/infoboard", requestOptions)
       .then((response) => response.json())
       .then((result) => setData(result))
       .catch((error) => console.error(error));

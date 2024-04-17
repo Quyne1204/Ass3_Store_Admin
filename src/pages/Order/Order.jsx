@@ -26,7 +26,7 @@ const Order = () => {
             redirect: "follow"
         };
 
-        fetch("http://localhost:5000/admin/orders", requestOptions)
+        fetch("https://ass3-store-server.onrender.com/admin/orders", requestOptions)
             .then((response) => response.json())
             .then((result) => setData(result))
             .catch((error) => console.error(error));

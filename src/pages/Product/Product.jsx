@@ -26,7 +26,7 @@ const Product = () => {
             redirect: "follow"
         };
 
-        fetch("http://localhost:5000/admin/products", requestOptions)
+        fetch("https://ass3-store-server.onrender.com/admin/products", requestOptions)
             .then((response) => response.json())
             .then((result) => setData(result))
             .catch((error) => console.error(error));
@@ -48,7 +48,7 @@ const Product = () => {
             redirect: "follow"
         };
 
-        fetch("http://localhost:5000/admin/hotel/delete", requestOptions)
+        fetch("https://ass3-store-server.onrender.com/admin/hotel/delete", requestOptions)
             .then((response) => response.json())
             .then((result) => {
                 setSuccess(result);

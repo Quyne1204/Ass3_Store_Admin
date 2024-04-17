@@ -27,7 +27,7 @@ const Login = () => {
             redirect: "follow"
         };
 
-        fetch(`http://localhost:5000/auth/login`, requestOptions)
+        fetch(`https://ass3-store-server.onrender.com/auth/login`, requestOptions)
             .then((response) => response.json())
             .then((result) => {
                 if (result.accessToken) {
