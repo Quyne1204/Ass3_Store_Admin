@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #6d5353;
+}
+
+.form-container .form {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    text-align: center;
+    width: 500px;
+}
+
+.form-container .form h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.form-container .form input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-container .form .form-btn {
+    background: #c2a0a7;
+    color: crimson;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-container .form .form-btn:hover {
+    background: crimson;
+    color: #fff;
+}
+
+/* .form-container .form p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.form-container .form p a {
+    color: crimson;
+}
+
+.form-container .form .error-msg {
+    margin: 10px 0;
+    display: block;
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+} */

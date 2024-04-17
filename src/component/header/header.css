@@ -1,0 +1,75 @@
+.header-main{
+  width: 100%;
+  padding: 150px auto;
+}
+.box-header{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+}
+.box-header-item{
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.box-header-item .title-item{
+  color: rgb(143, 141, 141);
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 450;
+}
+.box-header-item .count-item{
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: 450;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.box-header-item .icon-user{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 5px 10px;
+  background-color: pink;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+}
+.box-header-item .icon-order{
+  max-width: 37.5px;
+  max-height: 41px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 5px 10px;
+  background-color: rgb(240, 176, 85);
+  padding: 8px 6px;
+  border: none;
+  border-radius: 5px;
+}
+.box-header-item .icon-earning{
+  max-width: 37.5px;
+  max-height: 41px; 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 5px 10px;
+  background-color: pink;
+  padding: 6px 4px;
+  border: none;
+  border-radius: 5px;
+}
+.box-header-item .icon-balance{
+  max-width: 37.5px;
+  max-height: 41px; 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 5px 10px;
+  background-color: pink;
+  padding: 7px 6px;
+  border: none;
+  border-radius: 5px;
+}

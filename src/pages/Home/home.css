@@ -1,0 +1,111 @@
+.layout {
+  display: flex;
+}
+
+.layout .home-container {
+  width: 100%;
+  margin: 64px auto;
+  border-top: 1px solid #adb5bd;
+  padding: 25px;
+}
+
+.home-main {
+  margin-top: 50px;
+
+}
+
+.home-main>p {
+  font-size: 30px;
+  font-weight: 450px;
+  color: #6e6e6f;
+}
+
+/* table  */
+.home-main table {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+.home-main tr {
+  border: 1px solid rgb(160, 158, 158);
+}
+
+.home-main thead tr th span {
+  box-sizing: border-box;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-left: 2px solid rgb(199, 198, 198);
+}
+
+.home-main table thead th {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+}
+
+.home-main table tbody td {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.home-main table input {
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  margin-left: 3px;
+
+}
+
+.home-main tbody tr td span {
+  box-sizing: border-box;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+}
+
+.home-main .Booked {
+  padding: 3px 10px;
+  border: none;
+  border-radius: 5px;
+  color: green;
+  background-color: #ff6b6b !important;
+}
+
+.home-main .Checkin {
+  padding: 3px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #51cf66 !important;
+}
+
+.home-main .Checkout {
+  padding: 3px 10px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(73, 73, 233);
+  background-color: #868e96 !important;
+}
+
+.btn-ad{
+  background-color: #51cf66;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}

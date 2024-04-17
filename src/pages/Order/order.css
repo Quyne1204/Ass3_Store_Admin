@@ -1,0 +1,192 @@
+.layout {
+    display: flex;
+}
+
+.layout .home-container {
+    width: 100%;
+    margin: 64px auto;
+    border-top: 1px solid #adb5bd;
+    padding: 25px;
+}
+
+.home-hotels .head {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.home-hotels .head p {
+    flex: 1;
+    font-size: 30px;
+    font-weight: 450px;
+    color: #6e6e6f;
+}
+
+.home-hotels .head .navlink {
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+    color: green;
+}
+
+.home-hotels .head .navlink:hover {
+    background-color: #e9eef3;
+}
+
+/* table  */
+.home-hotels table {
+    box-sizing: border-box;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.home-hotels tr {
+    border: 1px solid rgb(160, 158, 158);
+}
+
+.home-hotels thead tr th span {
+    box-sizing: border-box;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-left: 2px solid rgb(199, 198, 198);
+}
+
+.home-hotels table thead th {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+
+.home-hotels table tbody td {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+
+.home-hotels tbody tr td span {
+    box-sizing: border-box;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+.home-hotels table input {
+    width: 100%;
+}
+
+.home-hotels table .btn-delete {
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: white;
+    border: 2px dashed rgb(205, 113, 116);
+    border-radius: 5px;
+    color: rgb(205, 113, 116);
+}
+
+.home-hotels table .btn-delete:hover {
+    background-color: #e9eef3;
+    cursor: pointer;
+}
+
+/* addhotel */
+
+.home-hotels-add p {
+    font-size: 30px;
+    font-weight: 450px;
+    color: #cacacb;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
+}
+
+.home-hotels-add .add-main {
+    margin-top: 20px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
+}
+
+.home-hotels-add .add-item-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-hotels-add .item {
+    flex: 1;
+    margin: 0px 40px;
+}
+
+.home-hotels-add .item-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.home-hotels-add .item-input label {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 550px;
+}
+
+.home-hotels-add .item-input input {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+}
+
+.home-hotels-add .item-input textarea {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+}
+
+.home-hotels-add .item-input select {
+    padding: 10px;
+    width: 25%;
+}
+
+.home-hotels-add .item-input input:focus {
+    outline: none;
+    border-color: #0066ff;
+    box-shadow: 0 0 5px rgba(0, 102, 255, 0.3);
+}
+
+.home-hotels-add .btn-add-hotels .btn-add {
+    padding: 9px 60px;
+    margin: 20px 40px;
+    background-color: rgb(24, 108, 104);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-hotels-add .item-input2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.home-hotels-add .item-input2 label {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 550px;
+}
+
+.home-hotels-add .item-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-hotels-add .column {
+    width: 33.33%;
+    flex-basis: 33.33%;
+}
